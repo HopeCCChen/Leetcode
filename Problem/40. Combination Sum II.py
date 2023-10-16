@@ -1,6 +1,5 @@
 
 
-'''
 class Solution:
     answer_list=[]
 
@@ -33,5 +32,4 @@ class Solution:
         candidates= sorted(candidates)
         self.run(candidates,target,0,[])
         return  self.answer_list
-'''
 
