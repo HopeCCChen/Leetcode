@@ -1,0 +1,35 @@
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        left_max  = []
+        right_max = []
+
+        water =0
+
+        #step1 Find left_max
+        for index, data in enumerate(height):
+            if(index==0):
+                left_max.append(data)
+            else:
+                left_max.append(max(left_max[-1],data))
+       # print(left_max)
+        '''
+        #step2 Find right_max
+        for index in range(len(height)-1,-1,-1):
+            if(index == len(height)-1):
+                right_max.append(height[index])
+            else:    
+                right_max.insert(0,max(right_max[0],height[index]))
+        print(right_max)
+        
+        #Step3 Find the water sum
+        for index, data in enumerate(height):
+            water=water+min(left_max[index],right_max[index])-data
+        '''
+        #step2+step3
+        for index in range(len(height)-1,-1,-1):
+            if(index == len(height)-1):
+                right_max.append(height[index])
+            else:    
+                right_max.insert(0,max(right_max[0],height[index]))
+            water=water+min(left_max[index],right_max[0])-height[index]
+        return water
