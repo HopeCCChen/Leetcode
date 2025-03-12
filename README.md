@@ -1,6 +1,6 @@
 # LeetCode 解題筆記
 
-這是一個我自己整理 LeetCode 題目的 GitHub 倉庫，包含我的解法、思路與一些見解。
+這是一個我自己整理 LeetCode 題目的 GitHub 題庫，包含我的解法、思路與一些見解。
 
 ## 🏆 目標
 - 記錄自己學習過寫過的 LeetCode 題目
