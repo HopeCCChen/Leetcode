@@ -1,9 +1,9 @@
 # LeetCode 解題筆記
 
-這是一個整理 LeetCode 題目的 GitHub 倉庫，包含我的解法、思路與最佳實踐。
+這是一個我自己整理 LeetCode 題目的 GitHub 倉庫，包含我的解法、思路與一些見解。
 
 ## 🏆 目標
-- 記錄學習過的 LeetCode 題目
+- 記錄自己學習過寫過的 LeetCode 題目
 - 提供不同語言的解法（如 Python、C++、Java）
 - 分享解題思路與時間複雜度分析
 
@@ -15,4 +15,4 @@
 | 3 | Longest Substring Without Repeating Characters | Medium | [Java](solutions/3_Longest_Substring.java) | 滑動窗口技術 |
 
 ## 🔥 持續更新
-我會不定期更新更多題目的解法，歡迎 Star ⭐ 或 Fork 🍴
+我會不定期持續更新更多題目的解法，歡迎 Star ⭐ 或 Fork 🍴 或提供一些想法。
